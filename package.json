@@ -1,0 +1,17 @@
+{
+  "main": "handler.js",
+  "scripts": {
+    "invoke": "npx sls invoke local -f hello --verbose --path ./mock/successRequest.json"
+  },
+  "dependencies": {
+    "aws-lambda": "^1.0.7"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.58.0",
+    "@types/aws-lambda": "^8.10.109",
+    "@types/node": "^11.13.0",
+    "serverless": "^3.26.0",
+    "serverless-offline": "^12.0.4",
+    "serverless-plugin-typescript": "1.1.7"
+  }
+}
